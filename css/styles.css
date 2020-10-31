@@ -678,10 +678,11 @@ article.center h1 {
 
 article .left-img,
 article .right-img {
-    float: left;
+     float: left;
     width: 550px;
-    margin: 0 20px;
+    margin: 177px 20px;
     text-align: center;
+    margin-left: 260px;
 }
 
 .left-img h2,
