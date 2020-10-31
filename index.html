@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" media="all">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Sony Store Argentina</title>
+    <link rel="shortcut icon" href="./img/icon.webp">
+</head>
+
+<body>
+    <!-- Header Black -->
+    <header>
+        <nav class="center">
+            <a href="#home">
+                <img class="iconsony" src="./img/SONY.png" alt="logo sony">
+            </a>
+            <section class="right">
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Buscar por nombre, producto ó categoria" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+
+                <a class="telephone" href="#">
+                    <img src="./img/phone.png" alt="logo sony">
+                    <div class="contact">
+                        <div class="title">VENTA TELEFÓNICA</div>
+                        <div class="number">(011) 5077-1321</div>
+                        <div class="title">LU a VI 10 a 20hs</div>
+                    </div>
+                </a>
+                <a class="mispedidos" href="#">
+                    <span>MIS PEDIDOS</span>
+                </a>
+
+                <!-- Dropdown con problemas - no se vé bien -->
+                <div class="dropdown">
+                    <button class="dropbtn">&#9776;</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+
+                <a class="oficialsite" href="www.sony.com.ar">Sitio Sony</a>
+
+                <div class="cart">
+                    <a href="/checkout"><img src="/img/Shopping-Cart-icon.png" alt="shopping cart">
+                        <div class="num-prods"></div>
+                    </a>
+                    <div class="minicart"></div>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <!-- Items Container White -->
+    <main class="container">
+        <div id="category-menu">
+            <div class="fixed">
+                <div class="center">
+                    <div class="items">
+                        <a href="#" class="item">
+                            <div class="promociones"><img src="./img/PromocionesStar.png" alt="estrella"></div>
+                            <div class="title">PROMOCIONES</div>
+                            <div class="line"></div>
+                        </a>
+                        <a href="/tv-y-home-theatre" class="item">
+                            <div class="hometheatre"><img src="./img/tvyhome.png" alt="televisor y hometheatre"></div>
+                            <div class="title">TV y Home Theatre</div>
+                            <div class="line trans"></div>
+                        </a>
+                        <a href="/audio" class="item">
+                            <div class="audio"><img src="./img/audio.png" alt="auriculares"></div>
+                            <div class="title">Audio</div>
+                            <div class="line trans"></div>
+                        </a>
+                        <a href="/playstation" class="item">
+                            <div class="playstation"><img src="./img/playstation.png" alt="playstation console"></div>
+                            <div class="title">PlayStation</div>
+                            <div class="line trans"></div>
+                        </a>
+                        <a href="/audio-para-auto" class="item">
+                            <div class="audio-auto"><img src="./img/audioparaauto.png" alt="stereo auto"></div>
+                            <div class="title">Audio para Auto</div>
+                            <div class="line trans"></div>
+                        </a>
+                        <a href="/camaras" class="item">
+                            <div class="photocamera"><img src="./img/camara.png" alt="camara de fotos"></div>
+                            <div class="title">Cámaras</div>
+                            <div class="line trans"></div>
+                        </a>
+                        <a href="/videocamaras" class="item">
+                            <div class="videocamera"><img src="./img/videocamara.png" alt="videocamara"></div>
+                            <div class="title">Videocámaras</div>
+                            <div class="line trans"></div>
+                        </a>
+                    </div>
+                </div>
+                <!-- submenu Display:none -->
+
+                <div class="submenu">
+
+                    <div class="sub sub-photo">
+                        <a href="#" class="item"><img src="img/photo-cybershot.png" alt="camera">
+                            <div class="title">Cyber-Shot</div>
+                        </a>
+                        <a href="#" class="item"><img src="img/photo-camaras-lentes-intercambiables.png" alt="camaras y lentes" />
+                            <div class="title">Cámaras con Lentes Intercambiables</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/photo-lentes.png" alt="lentes de camara" />
+                            <div class="title">Lentes</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/photo-accesorios.png" alt="accesorios de camara" />
+                            <div class="title">Accesorios</div>
+                        </a>
+                    </div>
+
+
+                    <div class="sub sub-video">
+                        <a href="#" class="item"><img src="./img/video-action-cam.png" alt="videocamara" />
+                            <div class="title">Action Cam</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/video-handycam.png" alt="videocamara de mano" />
+                            <div class="title">Handycam</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/video-accesorios.png" alt="accesorios videocamara" />
+                            <div class="title">Accesorios</div>
+                        </a>
+                    </div>
+
+                    <div class="sub sub-tv">
+                        <a href="#" class="item"><img src="./img/tv-televisores.png" alt="televisores" />
+                            <div class="title">Televisores</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/tv-teatro-casa.png" alt="home theatre" />
+                            <div class="title">Home Theatre</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/tv-reproductores-blu-ray-dvd.png" alt="reproductor de DVD y bluray" />
+                            <div class="title">Reproductores de Blu-ray Disc y DVD</div>
+                        </a>
+                    </div>
+
+                    <div class="sub sub-audio">
+                        <a href="#" class="item"><img src="./img/audio-minicomponentes.png" alt="sistema de audio" />
+                            <div class="title">Sistemas de Audio</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/audio-parlantes-inalambricos.png" alt="parlantes inalambricos" />
+                            <div class="title">Parlantes Inalámbricos</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/audio-reproductores-walkman.png" alt="walkman" />
+                            <div class="title">Reproductores de Música Digital Walkman</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/audio-audifonos.png" alt="auriculares" />
+                            <div class="title">Auriculares</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/audio-boomboxes-radios-reproductores.png" alt="radios portátiles" />
+                            <div class="title">Radios Portátiles</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/audio-grabadoras-voz-digital.png" alt="grabadoras de voz" />
+                            <div class="title">Grabadoras de voz digital</div>
+                        </a>
+                    </div>
+
+
+                    <div class="sub sub-ps4">
+                        <a href="#" class="item"><img src="./img/menu-ps5.png" class="img-ps5" alt="playstation5" />
+                            <div class="title">PlayStation 5</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/playstation-consolas.png" alt="consolas" />
+                            <div class="title">Consolas</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/playstation-juegos.png" alt="juegos" />
+                            <div class="title">Juegos</div>
+                        </a>
+                        <a href="#" class="item" style="display:none"><img src="./img/playstation-tarjetas-psn.png" alt="tarjetas PSN" />
+                            <div class="title">Tarjetas PSN</div>
+                        </a>
+                        <a href="#" class="item"><img src="./img/playstation-accesorios.png" alt="accesorios para play" />
+                            <div class="title">Accesorios para PlayStation</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Automatic Slider carrusel -->
+
+        <div class="page">
+
+            <div id="slider-container">
+                <div id="slider-box">
+                    <div class="slider-element">
+                        <article class="element1">
+                            <div class="img-container">
+                                <img src="/img/sterrreocarrousel.jpg" alt="stereo">
+                                <div class="text-block">
+                                    <h1>Lleva la música a otro nivel con la nueva serie V</h1>
+                                    <p>Con sonido y luces omnidireccionales, Karaoke, ¡Y toda la diversión!</p>
+                                    <button class="btn-more">Conoce Más&raquo;</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="slider-element">
+                        <article class="element2">
+                            <div class="img-container">
+                                <img src="/img/fortinaitecarl.jpg" alt="stereo">
+                                <div class="text-block-dark">
+                                    <h1>Potenciá tu forma de jugar</h1>
+                                    <p class="bold">Entretenimiento en resolución 4K</p>
+                                    <p>La PS4 Pro Contenido exclusivo de Fortnite Neo Versa potencia los juegos en tu TV 4K</p>
+                                    <p class="price">Precio exclusivo <span> $69.999</span>
+                                        <br> 12 CUOTAS SIN INTERÉS</p>
+                                    <button class="btn-more">Conoce Más >>&raquo;</button>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <aside class="credit-cards">
+                <p>VISA, MASTER y AMEX: 6 cuotas s/int en seleccionados | MERCADOPAGO: 6 cuotas s/int con todos los medios de pago <a href="PROMOS-BANCOS" class="link-text">Ver más</a></p>
+            </aside>
+
+        </div>
+
+        <!-- banner promociones de pago -->
+        <section class="center">
+            <a href="#mediodepago"><img class="center" src="./img/mediosdepago.gif" alt="medios de pago"></a>
+        </section>
+
+        <!-- contenido Seleccion para vos -->
+        <article class="center">
+            <h1>¡Nuestra selección para vos!</h1>
+            <br>
+            <br>
+            <div class="left-img">
+                <a href="#imgleft"><img src="./img/imageleft.jpg" alt="auriculares y objetos"></a>
+                <h2>Todo el estilo graves profundos</h2>
+                <p>Ponle EXTRA BASS a todo lo que hagas y que vayan contigo a cualquier lado con hasta 18 horas de batería con el estuche de carga y compatibilidad con tu asistente de voz</p>
+                <p class="special"> <span>6 CUOTAS SIN INTERÉS</span>
+                    <br><br> Antes: $14.999 <span> Ahora: $12.349</span></p>
+            </div>
+            <div class="right-img">
+                <a href="#imgright"><img src="./img/imageright.jpg" alt="medios de pago"></a>
+                <h2>Comprá al mismo precio que USA</h2>
+                <p>Conseguí nuestras mejores cámaras y lentes con beneficios exclusivos como la facilidad y seguridad de comprar desde tu país con GARANTÍA OFICIAL.</p>
+                <p class="special">¡APROVECHÁ <span> ENVÍO RÁPIDO EN CABA Y GBA!</span></p>
+                <a href="#" class="link-buy-now">Compra Ahora>></a>
+            </div>
+        </article>
+
+        <!-- Banner Azul bottom -->
+        <section class="center">
+            <a href="#bannerblue"><img class="center banner-blue" src="./img/bannerblue.jpg" alt="ventas corporativas"></a>
+        </section>
+
+        <!-- Chat fijado left -->
+        <div class="chat-left-fixed">
+            <img src="/img/imagenchatea.png" alt="imagen chatea">
+        </div>
+
+
+    </main>
+</body>
+
+</html>
